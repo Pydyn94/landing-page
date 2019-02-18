@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.row::before,
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+[class*='col-'] {
+    float: left;
+    Min-height: 1px;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*Nav styles*/
+
+header {
+    background-image: url("https://images.unsplash.com/photo-1542822038-3a1810a5fb69?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header > nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: right;
+}
+
+header > nav ul > li {
+    display: inline-block;
+}
+
+header > nav ul > li > a {
+    line-height: 100px;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 18px;
+    transition: 0.2s linear all;
+}
+
+header > nav ul > li > a:hover {
+    color: #D8CA00;
+}
+
+.golden {
+    line-height: 100px;
+    color: #D8CA00;
+    font-size: 28px;
+    font-family: 'Playball', cursive;
+}
+
+p {
+    padding-top: 200px;
+    color: #fff;
+    font-size: 6vh;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: #fff;
+    font-size: 8vh;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    background-color: #D8CA00;
+    color: #fff;
+    border-color: #D8CA00;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 40px 80px;
+    font-size: 3vh;
+    display: block;
+    margin: 0 auto;
+}
