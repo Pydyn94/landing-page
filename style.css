@@ -108,12 +108,12 @@ header > nav ul > li > a {
 }
 
 header > nav ul > li > a:hover {
-    color: #D8CA00;
+    color: #FCC201;
 }
 
 .golden {
     line-height: 100px;
-    color: #D8CA00;
+    color: #FCC201;
     font-size: 28px;
     font-family: 'Playball', cursive;
 }
@@ -134,9 +134,9 @@ header > nav ul > li > a:hover {
 }
 
 .btn {
-    background-color: #D8CA00;
+    background-color: #FCC201;
     color: #fff;
-    border-color: #D8CA00;
+    border-color: #FCC201;
     border-radius: 5px;
     text-transform: uppercase;
     padding: 40px 80px;
@@ -172,11 +172,11 @@ header > nav ul > li > a:hover {
 }
 
 .fas {
-    font-size: 40px;
+    font-size: 44px;
     text-align: center;
     padding: 50px;
-    border: 2px solid #D8CA00;
-    color: #D8CA00;
+    border: 4px solid #FCC201;
+    color: #FCC201;
     border-radius: 100%;
 }
 
