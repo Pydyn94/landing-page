@@ -165,7 +165,7 @@ header > nav ul > li > a:hover {
 
 .service-text {
     font-style: italic;
-    color: #C0C0C0;
+    color: #707070;
     font-size: 20px;
     padding-bottom: 50px;
     text-align: center;
@@ -181,10 +181,32 @@ header > nav ul > li > a:hover {
 }
 
 .text-icon {
-    color: #C0C0C0;
+    color: #707070;
 }
 
 .icons {
     text-align: center;
     padding: 0 20px;
+}
+
+/*Portfolio styles*/
+
+#portfolio {
+    background-color: #F1F1F1;
+}
+
+.presentation-picture {
+    background-color: #fff;
+    width: 360px;
+    text-align: center;
+    padding: 10px;
+}
+
+.picture-label {
+    font-style: italic;
+    color: #707070;
+}
+
+.photo-2 {
+    margin-top: 40px;
 }
