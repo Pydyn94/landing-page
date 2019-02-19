@@ -123,16 +123,14 @@ header > nav ul > li > a:hover {
     color: #fff;
     font-size: 6vh;
     font-style: italic;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 .text-header {
     color: #fff;
     font-size: 8vh;
     text-transform: uppercase;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 .btn {
@@ -157,7 +155,7 @@ header > nav ul > li > a:hover {
     text-align: center;
 }
 
-.service-header > h1 {
+.service-header {
     text-transform: uppercase;
     font-size: 6vh;
     font-weight: bolder;
@@ -170,6 +168,7 @@ header > nav ul > li > a:hover {
     color: #C0C0C0;
     font-size: 20px;
     padding-bottom: 50px;
+    text-align: center;
 }
 
 .fas {
