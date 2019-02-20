@@ -280,7 +280,7 @@ header > nav ul > li > a:hover {
 input {
     font-size: 18px;
     display: block;
-    width: 90%;
+    width: 95%;
     height: 70px;
     margin: 20px 0px;
     border-radius: 10px;
@@ -293,7 +293,7 @@ textarea {
     font-weight: bold;
     height: 250px;
     margin: 20px 0px;
-    width: 90%;
+    width: 95%;
     border-radius: 10px;
     padding: 20px;
 }
@@ -301,4 +301,17 @@ textarea {
 .btn-send {
     margin-top: 50px;
     padding: 20px 40px;
+}
+
+/*Footer styles*/
+
+footer {
+    padding: 25px 0px;
+}
+
+.footer-icon {
+    background-color: #5E5E5E;
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
 }
