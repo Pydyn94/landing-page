@@ -1,0 +1,99 @@
+@media (max-width: 767px) {
+    /* For phones: */
+    .col-s-1 {
+        width: 8.33%;
+    }
+    .col-s-2 {
+        width: 16.66%;
+    }
+    .col-s-3 {
+        width: 25%;
+    }
+    .col-s-4 {
+        width: 33.33%;
+    }
+    .col-s-5 {
+        width: 41.66%;
+    }
+    .col-s-6 {
+        width: 50%;
+    }
+    .col-s-7 {
+        width: 58.33%;
+    }
+    .col-s-8 {
+        width: 66.66%;
+    }
+    .col-s-9 {
+        width: 75%;
+    }
+    .col-s-10 {
+        width: 83.33%;
+    }
+    .col-s-11 {
+        width: 91.66%;
+    }
+    .col-s-12 {
+        width: 100%;
+    }
+    .navigation-toggle {
+        display: block;
+    }
+
+    nav ul li {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    nav ul li a,
+    .golden {
+        display: block;
+        height: 50px;
+        text-align: center;
+    }
+    .text-info {
+        font-size: 4vh;
+    }
+    .text-header {
+        font-size: 5vh;
+    }
+    .btn {
+        font-size: 2vh;
+        padding: 20px 40px;
+    }
+
+    .service-text {
+        margin: 0 10px;
+    }
+
+    .presentation-picture {
+        margin: 0 auto;
+    }
+
+    .mobile-center {
+        text-align: center;
+        margin: 20px 0px;
+    }
+
+    textarea {
+        display: block;
+    }
+
+    input,
+    textarea {
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .text-footer {
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .footer-icon-map {
+        text-align: center;
+    }
+
+}
