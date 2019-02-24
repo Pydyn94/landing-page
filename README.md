@@ -1,5 +1,5 @@
 # landing-page
-Github Pages https://pydyn94.github.io/simple-landing-page/
+Github Pages https://pydyn94.github.io/landing-page/
 
 Technologies used:
 *HTML5
